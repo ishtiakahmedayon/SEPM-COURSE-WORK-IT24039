@@ -248,7 +248,7 @@ JDBC settings are constants at the top of `ScoreDAO.java` (full file in [Task 07
 ```java
 private static final String URL = "jdbc:mysql://localhost:3306/math_whiz_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
 private static final String USER = "root";
-private static final String PASSWORD = "YOUR_DB_PASSWORD";
+private static final String PASSWORD = "1234pass";
 ```
 
 Replace `YOUR_DB_PASSWORD` with your MySQL password before running.
@@ -318,14 +318,14 @@ All forms post to `/game` with a hidden `action`.
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>YOUR NAME – MATH WHIZ</title>
+  <title>Ishtiak – MATH WHIZ</title>
   <link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css">
 </head>
 <body>
 <main class="screen">
   <header class="marquee">
     <p class="tag">★ ARCADE EDITION ★</p>
-    <h1>YOUR NAME<br><span>MATH WHIZ</span></h1>
+    <h1>Ishtiak<br><span>MATH WHIZ</span></h1>
   </header>
 
   <section class="panel">
