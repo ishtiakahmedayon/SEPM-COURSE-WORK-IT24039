@@ -117,8 +117,6 @@ MathWhiz/
 ├── pom.xml
 ├── README.md
 ├── .gitignore
-├── database/
-│   └── math_whiz_db.sql
 ├── screenshots/
 │   ├── home.png
 │   ├── game-input.png
@@ -1653,8 +1651,6 @@ Before committing, replace the real password in `ScoreDAO.java` with the `YOUR_D
 
 ### Database creation SQL
 
-Also available as `database/math_whiz_db.sql`.
-
 ```sql
 CREATE DATABASE IF NOT EXISTS math_whiz_db
   CHARACTER SET utf8mb4
@@ -1703,5 +1699,5 @@ IntelliJ: **Run > Edit Configurations > + > Maven**, command line `jetty:run`.
 ## GitHub Project Link
 
 ```
-https://github.com/username/repository/tree/main/MathWhiz
+https://github.com/ishtiakahmedayon/SEPM-COURSE-WORK-IT24039/tree/main/Live_Lab_Test_2
 ```
